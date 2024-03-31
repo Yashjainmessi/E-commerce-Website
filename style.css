@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3eaeaee;
+}
+nav{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    height: 60px;
+    
+
+}
+nav img{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    
+}
+
+nav .img2{
+    height: 38px;
+    width: 34px;
+   
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    text-decoration-skip: 0;
+    
+    
+}
+nav ul li{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav button{
+    height: 33px;
+    width: 80px;
+    margin-left: 470px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(249, 245, 245);
+}
+nav button:hover{
+    background-color:rgb(247, 170, 143);
+    color:rgb(208, 56, 18);
+}
+
+.Container2{
+    background-color: rgb(252, 248, 248);
+    height:50vh;
+    display: flex;
+     flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 55px;
+    
+}
+.imgesMan{
+    background-color: rgb(246, 239, 239);
+    height: 45vh;
+    width: 35vh;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    
+}
+.imgesBag{
+    background-color:rgb(255, 255, 255);
+    height: 45vh;
+    width: 35vh;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+.imgesGool{
+    background-color: rgb(246, 239, 239);
+    height: 45vh;
+    width: 35vh;
+    margin-top: 10px;
+    border-radius:10px;
+    margin-left: 20px;
+    
+}
+.imgesCap{
+    background-color: white;
+    height: 45vh;
+    width: 35vh;
+    margin-top: 10px;
+    border-radius:10px;
+    
+    margin-left: 20px;
+
+}
+.menu{
+    display: flex;
+    
+}
+
+
+.imgesMan img{
+    height: 150px;
+    width: 100px;
+    text-align: center;
+    
+    
+    
+}
+.imgesBag img{
+    height: 150px;
+    width: 100px;
+
+}
+.imgesGool img{
+    height: 150px;
+    width: 100px;
+
+}
+.imgesCap img{
+    height: 100px;
+    width:100px ;
+}
+.imgesMan .img3{
+    height: 30px;
+    width: 20px;
+    margin-top: 30px;
+}
+.imgesBag .img3{
+    height: 30px;
+    width: 20px;
+    margin-top: 30px;
+}
+.imgesCap .img3{
+    height: 30px;
+    width: 20px;
+    margin-top: 30px;
+}
+.imgesGool .img3{
+    height: 30px;
+    width: 20px;
+    margin-top: 30px;
+}
+ 
+.CapGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+.CapGroup button{
+    background-color: rgb(255, 77, 0);
+    color: white;
+    width: 45px;
+    border: 0;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 140px;
+    cursor: pointer;
+}
+.CapGroup img{
+    margin-top: 35px;
+}
+.CapGroup .img3{
+    margin-top: 30px;
+
+}
+
+
+
+.GoolGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+   
+}
+.GoolGroup button{
+    background-color: rgb(255, 77, 0);
+    color: white;
+    width: 45px;
+    border: 0;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 140px;
+    cursor: pointer;
+}
+.GoolGroup .img3{
+    margin-top: 15px;
+    
+
+}
+.GoolGroup span{
+    margin-bottom: 2px;
+}
+.BagGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+.BagGroup button{
+    background-color: rgb(255, 77, 0);
+    color: white;
+    width: 45px;
+    border: 0;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 140px;
+    cursor: pointer;
+
+}
+.BagGroup .img3{
+    margin-top: 15px;
+    
+}
+
+.ImgMan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+
+
+}
+
+.ImgMan button{
+    background-color: rgb(255, 77, 0);
+    color: white;
+    width: 45px;
+    border: 0;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 140px;
+    cursor: pointer;
+}
+.ImgMan .img3{
+    margin-top: 15px;
+    
+}    
+
+    
